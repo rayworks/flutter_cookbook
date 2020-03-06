@@ -3,6 +3,10 @@
 import 'package:flutter_driver/flutter_driver.dart';
 import 'package:test/test.dart';
 
+/// 
+/// run test: 
+/// flutter drive --target=test_driver/app.dart
+/// 
 void main() {
   group('Counter App', () {
     // First, define the Finders and use them to locate widgets from the
